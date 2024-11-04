@@ -14,6 +14,17 @@ body, html {
     overflow: hidden;
 }
 
+.left-side {
+    position: relative;
+    width: 50%;  /* Left side takes up half the width */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    overflow: hidden;
+    background: rgb(33, 33, 33);
+}
+
 #particles-js {
     position: fixed;  /* Fixes it to viewport */
     top: 0;
@@ -77,9 +88,21 @@ body, html {
 }
 
 .home-content {
-    max-width: 800px;
+    max-width: 600px;
     background: rgba(0, 0, 0, 0.5); /* Transparent background for readability */
-    padding: 20px;
+    padding: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     border-radius: 8px;
     z-index: 1; /* Ensures content displays above particles */
+}
+.home-content h1{
+    font-weight: 800;
+    font-size: 58px;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.start-button{
+
 }
