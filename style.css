@@ -69,7 +69,7 @@ body, html {
     width: 100%;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: left;
     color: white;
     padding: 20px;
     text-align: center;
@@ -77,9 +77,34 @@ body, html {
 }
 
 .home-content {
-    max-width: 800px;
+    max-width: 600px;
+    height: 70vh;
+    padding-top: 20px;
     background: rgba(0, 0, 0, 0.5); /* Transparent background for readability */
     padding: 20px;
     border-radius: 8px;
     z-index: 1; /* Ensures content displays above particles */
+}
+
+.home-content h1{
+    font-weight: 800;
+    font-size: 62px;
+}
+
+
+/* home button  */
+.home-content button{
+    size: 29px;
+    color: black; 
+    font-size: 20px;
+    font-weight: 200;
+    
+}
+
+.login{
+    z-index: 1;
+    color: aliceblue;
+    text-align: center;
+    justify-content: right;
+    position: absolute;
 }
