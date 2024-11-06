@@ -1,0 +1,1 @@
+This is a personal project web application and have a lot's of cool feature such as browsing all about psychopathy and make some test to determine if you are a psychopath or sociopath or normal this is web application aims to help our world to monitor how psycho or sociopath behave on certain things also make us be aware of our selves.
