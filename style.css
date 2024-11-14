@@ -5,8 +5,10 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
+    flex-wrap: wrap;
 }
 
+/* parent elementgit  */
 body, html {
     margin: 0;
     padding: 0;
@@ -72,7 +74,7 @@ body, html {
 
 .navigation-bar a:hover,
 .navigation-bar a.active {
-    color: black;
+    color: green;
 }
 
 .home {
@@ -89,7 +91,7 @@ body, html {
 
 .home-content {
     max-width: 800px;
-    background: rgba(0, 0, 0, 0.5); /* Transparent background for readability */
+    background: transparent /* Transparent background for readability */
     padding: 100px;
     display: flex;
     flex-direction: column;
@@ -110,6 +112,8 @@ body, html {
     color: black; 
     font-size: 20px;
     font-weight: 200;
+    width: 100px;
+
     
 }
 
