@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    overflow: hidden;
+}
+
+.left-side {
+    position: relative;
+    width: 50%;  /* Left side takes up half the width */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    overflow: hidden;
+    background: rgb(33, 33, 33);
+}
+
+#particles-js {
+    position: fixed;  /* Fixes it to viewport */
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgb(33, 33, 33);  /* Background color under particles */
+    z-index: 0;  /* Sends it behind other content */
+}
+
+.main {
+    position: relative;
+    min-height: 100vh;
+    z-index: 1; /* Content layers on top of particles */
+}
+
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 10%;
+    background: transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;  /* Keeps it on top of particles */
+}
+
+.logo {
+    font-size: 32px;
+    color: white;
+    text-decoration: none;
+    font-weight: 700;
+    filter: drop-shadow(0 0 5px black);
+}
+
+.navigation-bar a {
+    font-size: 18px;
+    color: white;
+    text-decoration: none;
+    margin-left: 35px;
+    transition: 0.3s;
+}
+
+.navigation-bar a:hover,
+.navigation-bar a.active {
+    color: black;
+}
+
+.home {
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    z-index: 1;  /* Keeps content on top of particles */
+}
+
+.home-content {
+    max-width: 800px;
+    background: rgba(0, 0, 0, 0.5); /* Transparent background for readability */
+    padding: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 8px;
+    z-index: 1; /* Ensures content displays above particles */
+}
+.home-content h1{
+    font-weight: 800;
+    font-size: 58px;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+
+/* home button  */
+.home-content button{
+    size: 29px;
+    color: black; 
+    font-size: 20px;
+    font-weight: 200;
+    
+}
+
+.login{
+    z-index: 1;
+    color: aliceblue;
+    text-align: center;
+    justify-content: right;
+    position: absolute;
+}
